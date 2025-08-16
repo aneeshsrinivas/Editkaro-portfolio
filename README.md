@@ -150,4 +150,5 @@ editkaro-website/
 The lightweight structure (only 3 core files) makes it easy to maintain while delivering rich interactive experiences.  
 
 
-## 📂 Project Structure
+
+
