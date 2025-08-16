@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in | Professional Video Editing & Social Media Marketing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Glitch Intro Effect -->
+    <div class="glitch-intro">
+        <div class="glitch-logo" data-text="EDITKARO.IN">EDITKARO.IN</div>
+        <div class="glitch-subtitle">Transforming raw footage into visual stories</div>
+    </div>
+
+    <!-- Main Content (hidden during glitch intro) -->
+    <div class="main-content">
+        <!-- Custom Cursor -->
+        <div class="custom-cursor"></div>
+
+        <!-- Header with Animated Background -->
+        <header class="hero">
+            <div class="video-bg">
+                <video autoplay muted loop>
+                    <source src="assets/videos/hero-bg.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="logo-reveal">
+                    <svg class="logo-svg" viewBox="0 0 200 50">
+                        <path class="logo-path" d="M10,25 Q25,10 40,25 T70,25 T100,25 T130,25 T160,25" fill="none" stroke="#fff" stroke-width="2"/>
+                        <text class="logo-text" x="100" y="40" text-anchor="middle" fill="#fff">EDITKARO.IN</text>
+                    </svg>
+                </div>
+                <p class="subtitle">Where Creativity Meets Precision</p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary magnetic">
+                        <span>View Portfolio</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary magnetic">
+                        <span>Get a Quote</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="scroll-down magnetic">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </header>
+
+        <!-- Portfolio Section with Animated Filters -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="section-header">
+                <h2 class="section-title">Our <span>Work</span></h2>
+                <div class="filter-bubbles">
+                    <div class="bubble active" data-filter="all">
+                        <div class="bubble-content">
+                            <i class="fas fa-th-large"></i>
+                            <span>All</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="short">
+                        <div class="bubble-content">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Short-form</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="long">
+                        <div class="bubble-content">
+                            <i class="fas fa-film"></i>
+                            <span>Long-form</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="gaming">
+                        <div class="bubble-content">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Gaming</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="football">
+                        <div class="bubble-content">
+                            <i class="fas fa-futbol"></i>
+                            <span>Football</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="ecommerce">
+                        <div class="bubble-content">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>eCommerce</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="documentary">
+                        <div class="bubble-content">
+                            <i class="fas fa-camera"></i>
+                            <span>Documentary</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="color">
+                        <div class="bubble-content">
+                            <i class="fas fa-palette"></i>
+                            <span>Color Grading</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="anime">
+                        <div class="bubble-content">
+                            <i class="fas fa-dragon"></i>
+                            <span>Anime</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                    <div class="bubble" data-filter="ads">
+                        <div class="bubble-content">
+                            <i class="fas fa-ad"></i>
+                            <span>Ads</span>
+                        </div>
+                        <div class="bubble-pulse"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-container">
+                <div class="portfolio-grid">
+                    <!-- Portfolio items will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Edit Journey Timeline -->
+        <section class="timeline-section">
+            <div class="section-header">
+                <h2 class="section-title">The Edit <span>Journey</span></h2>
+                <p class="section-subtitle">From raw footage to polished masterpiece</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Cutting & Trimming</h3>
+                        <p>Precision cutting to remove fluff and keep only the best moments</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Layering</h3>
+                        <p>Adding multiple video and audio tracks for depth</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Color Grading</h3>
+                        <p>Creating the perfect mood with cinematic color</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Sound Design</h3>
+                        <p>Balancing audio and adding effects for impact</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Final Polish</h3>
+                        <p>Adding transitions, effects and final touches</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Color Grading Simulator -->
+        <section class="grading-section">
+            <div class="section-header">
+                <h2 class="section-title">Color Grading <span>Simulator</span></h2>
+                <p class="section-subtitle">Slide to see different grading styles</p>
+            </div>
+            
+            <div class="grading-container">
+                <div class="before-after">
+                    <div class="before">
+                        <video id="grading-video" muted loop>
+                            <source src="assets/videos/sample-clip.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="after">
+                        <video id="graded-video" muted loop>
+                            <source src="assets/videos/sample-clip.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <input type="range" id="grading-slider" min="0" max="100" value="50">
+                    <div class="slider-button"></div>
+                </div>
+                
+                <div class="grading-styles">
+                    <div class="style-option" data-style="cinematic">
+                        <div class="style-preview" style="background: linear-gradient(135deg, #2c3e50, #4ca1af);"></div>
+                        <span>Cinematic</span>
+                    </div>
+                    <div class="style-option" data-style="vintage">
+                        <div class="style-preview" style="background: linear-gradient(135deg, #614385, #516395);"></div>
+                        <span>Vintage</span>
+                    </div>
+                    <div class="style-option" data-style="neon">
+                        <div class="style-preview" style="background: linear-gradient(135deg, #ff00cc, #333399);"></div>
+                        <span>Neon</span>
+                    </div>
+                    <div class="style-option" data-style="dramatic">
+                        <div class="style-preview" style="background: linear-gradient(135deg, #000000, #434343);"></div>
+                        <span>Dramatic</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section with 3D Flip Cards -->
+        <section id="services" class="services-section">
+            <div class="section-header">
+                <h2 class="section-title">Our <span>Services</span></h2>
+                <p class="section-subtitle">Tailored solutions for your content needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-film"></i>
+                            <h3>Video Editing</h3>
+                        </div>
+                        <div class="card-back">
+                            <ul>
+                                <li>Precision cutting & trimming</li>
+                                <li>Multi-cam editing</li>
+                                <li>Motion graphics</li>
+                                <li>Transitions & effects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-ad"></i>
+                            <h3>Social Media Ads</h3>
+                        </div>
+                        <div class="card-back">
+                            <ul>
+                                <li>Platform-optimized formats</li>
+                                <li>Attention-grabbing hooks</li>
+                                <li>CTA-focused editing</li>
+                                <li>A/B testing variants</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Color Grading</h3>
+                        </div>
+                        <div class="card-back">
+                            <ul>
+                                <li>Cinematic looks</li>
+                                <li>Color correction</li>
+                                <li>Mood enhancement</li>
+                                <li>Brand consistency</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Style Matcher Section -->
+        <section class="style-matcher">
+            <div class="section-header">
+                <h2 class="section-title">Find Your <span>Style</span></h2>
+                <p class="section-subtitle">Select your niche to see matching edits</p>
+            </div>
+            
+            <div class="style-options">
+                <div class="style-choice" data-style="gaming">
+                    <div class="style-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <span>Gaming</span>
+                </div>
+                <div class="style-choice" data-style="fashion">
+                    <div class="style-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <span>Fashion</span>
+                </div>
+                <div class="style-choice" data-style="education">
+                    <div class="style-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <span>Education</span>
+                </div>
+                <div class="style-choice" data-style="food">
+                    <div class="style-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <span>Food</span>
+                </div>
+                <div class="style-choice" data-style="travel">
+                    <div class="style-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <span>Travel</span>
+                </div>
+            </div>
+            
+            <div class="style-preview">
+                <div class="preview-container gaming">
+                    <!-- Preview content will be loaded here based on selection -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer with Animated Social Links -->
+        <footer id="contact">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">EDITKARO.IN</div>
+                    <p>Professional Video Editing & Social Media Marketing</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Services</h3>
+                        <a href="#">Video Editing</a>
+                        <a href="#">Color Grading</a>
+                        <a href="#">Social Media Ads</a>
+                        <a href="#">Motion Graphics</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h3>Company</h3>
+                        <a href="#">About Us</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Testimonials</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h3>Legal</h3>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://instagram.com/editkaro" target="_blank" class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span class="tooltip">Instagram</span>
+                    </a>
+                    <a href="https://youtube.com/editkaro" target="_blank" class="social-icon youtube">
+                        <i class="fab fa-youtube"></i>
+                        <span class="tooltip">YouTube</span>
+                    </a>
+                    <a href="https://facebook.com/editkaro" target="_blank" class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <span class="tooltip">Facebook</span>
+                    </a>
+                    <a href="https://x.com/editkaro" target="_blank" class="social-icon twitter">
+                        <i class="fab fa-x-twitter"></i>
+                        <span class="tooltip">X (Twitter)</span>
+                    </a>
+                    <a href="https://linkedin.com/company/editkaro" target="_blank" class="social-icon linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span class="tooltip">LinkedIn</span>
+                    </a>
+                </div>
+                
+                <div class="newsletter">
+                    <h3>Stay Updated</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="magnetic">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 Editkaro.in. All rights reserved.
+            </div>
+        </footer>
+
+        <!-- Video Lightbox -->
+        <div class="video-lightbox">
+            <div class="lightbox-content">
+                <span class="close-btn">&times;</span>
+                <video controls></video>
+                <div class="video-info">
+                    <h3 class="video-title"></h3>
+                    <p class="video-description"></p>
+                    <div class="video-stats">
+                        <span class="stat"><i class="fas fa-clock"></i> <span class="duration"></span></span>
+                        <span class="stat"><i class="fas fa-tags"></i> <span class="tags"></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
